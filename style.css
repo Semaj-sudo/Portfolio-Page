@@ -1,0 +1,89 @@
+html {
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1534543210152-32025bcfaad9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80");
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+h3, h4, h5 {
+    font-size: 20px;
+}
+
+footer p {
+    display: none;
+}
+
+footer ul {
+
+    text-align: right;
+}
+
+header ul {
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#aboutme{
+    border: inset;
+    padding: 1%;
+    margin: 4%;
+    text-align: center;
+}
+
+#portrait {
+    margin-left: 525px;
+    margin-right: 525px;
+    border-radius: 10px;
+        border-style: groove;
+        border-width: 10px;
+        display: flex;
+        flex-direction: column;
+
+}
+
+.card {
+    background-image:url(https://images.unsplash.com/photo-1528035015334-80868324e60e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80);
+    margin: 5%;
+    border: inset;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline-grid;
+}
+
+
+
+.footlinks {
+    color: black;
+    border: 2px solid rgb(212, 105, 105);
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.headlinks {
+    color: black;
+    border: 2px solid rgb(212, 105, 105);
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+}
